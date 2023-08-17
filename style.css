@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 80px;
+    margin-left:100px ;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+canvas {
+    border: 2px solid blue;
+}
+
+.d1 {
+    background-color: blue;
+    border: 1px solid lightblue;
+    display: flex;
+    width: 804px;
+    padding: 1rem;
+}
+
+.d1 > * {
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
